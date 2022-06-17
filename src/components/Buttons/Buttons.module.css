@@ -1,0 +1,33 @@
+.buttonsContainer {
+    margin-top: 20px;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px;
+  background-color: #FDFAFA;
+  border-radius: 20px;
+
+}
+
+.buttonsContainer span {
+    width: calc(25% - 10px);
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid #000; */
+    cursor: pointer;
+    
+}
+.buttonsContainer span:hover {
+    background-color: #F8D7E0;
+    color: #fff;
+}
+.buttonsContainer span:active {
+    background-color: #e593a9;
+    box-shadow: 0 2px rgb(188, 139, 139);
+    transform: translateY(4px);
+}
